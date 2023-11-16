@@ -9,23 +9,6 @@ const Hero = () => {
       <div className="  flex p-3 justify-start items-start gap-2.5 w-full">
         <p className="text-2xl font-bold"> Zone Management </p>
       </div>
-      {/* <div className=" rounded-[14px] border border-zinc-300 grid grid-cols-3 grid-rows-1 divide-x justify-start items-start  w-full">
-        <div className="  p-2 flex items-center justify-items-center  ">
-          <Button className=" w-full" variant="outline">
-            Button
-          </Button>
-        </div>
-        <div className="  p-2 flex items-center justify-items-center  ">
-          <Button className=" w-full" variant="outline">
-            Button
-          </Button>
-        </div>
-        <div className="  p-2 flex items-center justify-items-center  ">
-          <Button className=" w-full" variant="outline">
-            Button
-          </Button>
-        </div>
-      </div> */}
       <Tabs defaultValue="account" className=" w-full">
         <TabsList className=" w-full h-[60px] p-2  items-center">
           <TabsTrigger className=" flex-grow h-full" value="account">
@@ -45,7 +28,7 @@ const Hero = () => {
         <TabsContent value="movie">Change your movie here.</TabsContent>
       </Tabs>
 
-      <div className=" rounded-[14px] border border-zinc-300 flex p-3 items-center flex-col gap-2.5 h-full w-full">
+      <div className=" rounded-[14px] flex p-3 items-center flex-col gap-2.5 h-full w-full">
         <div className="p-3 w-full flex justify-between items-center gap-2.5">
           <p className=" text-zinc-500 font-semibold">Recommendation Date</p>
         </div>
